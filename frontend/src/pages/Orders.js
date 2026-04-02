@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import api from "../api/client";
+import React, { useEffect, useState } from 'react';
+import api from '../api/client';
 
 export default function Orders() {
   const [orders, setOrders] = useState([]);
@@ -9,16 +9,15 @@ export default function Orders() {
   // =========================
   const fetchOrders = async () => {
     try {
-      const res = await api.get("/api/orders");
+      const res = await api.get('/api/orders');
 
-      console.log("🔥 주문 데이터:", res.data);
+      console.log('🔥 주문 데이터:', res.data);
 
-      const ordersData =
-        res.data.orders || res.data.data?.orders || [];
+      const ordersData = res.data.orders || res.data.data?.orders || [];
 
       setOrders(ordersData);
     } catch (e) {
-      console.error("🔥 API 에러:", e);
+      console.error('🔥 API 에러:', e);
     }
   };
 
@@ -37,34 +36,34 @@ export default function Orders() {
   // 🔥 추가 2: 승인 / 거절
   // =========================
   const approve = async (pharmacy) => {
-  try {
-    await api.post("/api/orders/approve", null, {
-      params: { pharmacy },
-    });
+    try {
+      await api.post('/api/orders/approve', null, {
+        params: { pharmacy },
+      });
 
-    alert("승인 완료 👍");   // 🔥 추가
+      alert('승인 완료 👍'); // 🔥 추가
 
-    fetchOrders();
-  } catch (e) {
-    console.error(e);
-    alert("승인 실패");
-  }
-};
+      fetchOrders();
+    } catch (e) {
+      console.error(e);
+      alert('승인 실패');
+    }
+  };
 
   const reject = async (pharmacy) => {
-  try {
-    await api.post("/api/orders/reject", null, {
-      params: { pharmacy },
-    });
+    try {
+      await api.post('/api/orders/reject', null, {
+        params: { pharmacy },
+      });
 
-    alert("거절 완료 👍");   // 🔥 이거 추가
+      alert('거절 완료 👍'); // 🔥 이거 추가
 
-    fetchOrders();
-  } catch (e) {
-    console.error(e);
-    alert("거절 실패");
-  }
-};
+      fetchOrders();
+    } catch (e) {
+      console.error(e);
+      alert('거절 실패');
+    }
+  };
 
   return (
     <div style={{ padding: 20 }}>

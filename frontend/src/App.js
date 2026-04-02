@@ -1,26 +1,25 @@
-import React from "react";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import ProtectedRoute from "./ProtectedRoute";
+import React from 'react';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import ProtectedRoute from './ProtectedRoute';
 
 // 기존 페이지들
-import Login from "./pages/Login";
-import Signup from "./pages/Signup";
-import FindAccount from "./pages/FindAccount";
-import Home from "./pages/Home";
-import MapPage from "./pages/MapPage";
-import Orders from "./pages/Orders";
-import Prescription from "./pages/Prescription";
-import VideoCall from "./pages/VideoCall";
-import Video from "./Video";
+import Login from './pages/Login';
+import Signup from './pages/Signup';
+import FindAccount from './pages/FindAccount';
+import Home from './pages/Home';
+import MapPage from './pages/MapPage';
+import Orders from './pages/Orders';
+import Prescription from './pages/Prescription';
+import VideoCall from './pages/VideoCall';
+import Video from './Video';
 
 // 🔥 추가
-import UserOrders from "./pages/UserOrders";
+import UserOrders from './pages/UserOrders';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-
         {/* 기본 진입 */}
         <Route path="/" element={<Navigate to="/home" />} />
 
@@ -75,18 +74,8 @@ function App() {
             </ProtectedRoute>
           }
         />
-        <Route 
-          path="/video" 
-          element={
-            <VideoCall />
-          }
-        />
-        <Route 
-          path="/video"
-          element={
-            <Video />
-          }
-        />
+        <Route path="/video" element={<VideoCall />} />
+        <Route path="/video" element={<Video />} />
       </Routes>
     </BrowserRouter>
   );

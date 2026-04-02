@@ -1,10 +1,10 @@
-import { useState } from "react";
-import { signup } from "../api/auth";
+import { useState } from 'react';
+import { signup } from '../api/auth';
 
 export default function SignupPage() {
-  const [loginId, setLoginId] = useState("");
-  const [name, setName] = useState("");
-  const [password, setPassword] = useState("");
+  const [loginId, setLoginId] = useState('');
+  const [name, setName] = useState('');
+  const [password, setPassword] = useState('');
 
   const handleSignup = async () => {
     try {
@@ -12,17 +12,17 @@ export default function SignupPage() {
         loginId,
         name,
         password,
-        role: "patient",
+        role: 'patient',
       });
 
       if (result.success) {
-        alert("회원가입 성공");
+        alert('회원가입 성공');
       } else {
-        alert(result.message || "회원가입 실패");
+        alert(result.message || '회원가입 실패');
       }
     } catch (error) {
       console.error(error);
-      alert("회원가입 중 오류가 발생했습니다.");
+      alert('회원가입 중 오류가 발생했습니다.');
     }
   };
 

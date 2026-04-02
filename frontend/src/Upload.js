@@ -1,7 +1,6 @@
 import { api } from './api';
 
 export default function Upload() {
-
   const upload = async (e) => {
     const file = e.target.files[0];
     const form = new FormData();

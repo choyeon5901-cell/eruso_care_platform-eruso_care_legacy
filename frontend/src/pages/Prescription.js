@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import api from "../api/client";
+import React, { useEffect, useState } from 'react';
+import api from '../api/client';
 
 export default function Prescription() {
   const [list, setList] = useState([]);
@@ -10,7 +10,7 @@ export default function Prescription() {
 
   const fetchData = async () => {
     try {
-      const res = await api.get("/api/prescriptions");
+      const res = await api.get('/api/prescriptions');
       setList(res.data.prescriptions || []);
     } catch (e) {
       console.error(e);
@@ -27,7 +27,7 @@ export default function Prescription() {
         <div
           key={i}
           style={{
-            border: "1px solid #ddd",
+            border: '1px solid #ddd',
             padding: 12,
             marginBottom: 10,
             borderRadius: 8,

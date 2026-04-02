@@ -1,28 +1,28 @@
-import React, { useState } from "react";
-import AppHeader from "../components/AppHeader";
-import theme from "../styles/theme";
+import React, { useState } from 'react';
+import AppHeader from '../components/AppHeader';
+import theme from '../styles/theme';
 
 export default function FindAccount() {
-  const [findIdName, setFindIdName] = useState("");
-  const [findIdPhone, setFindIdPhone] = useState("");
-  const [findPwId, setFindPwId] = useState("");
-  const [findPwPhone, setFindPwPhone] = useState("");
+  const [findIdName, setFindIdName] = useState('');
+  const [findIdPhone, setFindIdPhone] = useState('');
+  const [findPwId, setFindPwId] = useState('');
+  const [findPwPhone, setFindPwPhone] = useState('');
 
   const handleFindId = () => {
-    alert("아이디 찾기 기능은 추후 본인인증 API와 연동됩니다.");
+    alert('아이디 찾기 기능은 추후 본인인증 API와 연동됩니다.');
   };
 
   const handleResetPassword = () => {
-    alert("비밀번호 찾기 기능은 추후 본인인증/이메일 연동됩니다.");
+    alert('비밀번호 찾기 기능은 추후 본인인증/이메일 연동됩니다.');
   };
 
   return (
     <div
       style={{
-        minHeight: "100vh",
+        minHeight: '100vh',
         background: theme.colors.background,
         maxWidth: theme.layout.maxWidth,
-        margin: "0 auto",
+        margin: '0 auto',
       }}
     >
       <AppHeader title="계정 찾기" />
@@ -71,7 +71,7 @@ export default function FindAccount() {
 }
 
 const cardStyle = {
-  background: "#fff",
+  background: '#fff',
   borderRadius: 22,
   padding: 18,
   boxShadow: theme.shadow.soft,
@@ -86,22 +86,22 @@ const titleStyle = {
 };
 
 const inputStyle = {
-  width: "100%",
-  padding: "14px 16px",
+  width: '100%',
+  padding: '14px 16px',
   borderRadius: 14,
   border: `1px solid ${theme.colors.border}`,
-  outline: "none",
-  boxSizing: "border-box",
+  outline: 'none',
+  boxSizing: 'border-box',
 };
 
 const buttonStyle = {
-  width: "100%",
-  border: "none",
+  width: '100%',
+  border: 'none',
   borderRadius: 14,
-  padding: "14px 16px",
+  padding: '14px 16px',
   background: theme.colors.primary,
-  color: "#fff",
+  color: '#fff',
   fontWeight: 800,
   marginTop: 14,
-  cursor: "pointer",
+  cursor: 'pointer',
 };

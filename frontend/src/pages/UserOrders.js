@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from "react";
-import api from "../api/client";
+import React, { useEffect, useState } from 'react';
+import api from '../api/client';
 
 export default function UserOrders() {
   const [orders, setOrders] = useState([]);
 
   const fetchOrders = async () => {
-    const res = await api.get("/api/orders");
+    const res = await api.get('/api/orders');
     setOrders(res.data.orders || []);
   };
 

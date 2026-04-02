@@ -1,19 +1,19 @@
-import React from "react";
-import { useLocation } from "react-router-dom";
-import AppHeader from "../components/AppHeader";
-import theme from "../styles/theme";
+import React from 'react';
+import { useLocation } from 'react-router-dom';
+import AppHeader from '../components/AppHeader';
+import theme from '../styles/theme';
 
 export default function InfoPage() {
   const location = useLocation();
-  const title = location.state?.title || "상세 페이지";
+  const title = location.state?.title || '상세 페이지';
 
   return (
     <div
       style={{
-        minHeight: "100vh",
+        minHeight: '100vh',
         background: theme.colors.background,
         maxWidth: theme.layout.maxWidth,
-        margin: "0 auto",
+        margin: '0 auto',
       }}
     >
       <AppHeader title={title} />
@@ -21,7 +21,7 @@ export default function InfoPage() {
       <div style={{ padding: 18 }}>
         <div
           style={{
-            background: "#fff",
+            background: '#fff',
             borderRadius: 22,
             padding: 18,
             boxShadow: theme.shadow.soft,
