@@ -1,0 +1,11 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "🔍 Lint check..."
+npx lint-staged || exit 1
+
+echo "🧪 Backend test..."
+cd ../backend || exit 1
+pytest || exit 1
+
+cd - > /dev/null

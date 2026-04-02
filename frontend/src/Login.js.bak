@@ -1,0 +1,131 @@
+import { API_BASE } from "./config";
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+
+export default function Login() {
+  const navigate = useNavigate();
+
+  const [isSignup, setIsSignup] = useState(false);
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setMessage("");
+
+    try {
+      const url = isSignup
+        ? `${API_BASE}/auth/signup`
+        : `${API_BASE}/auth/login`;
+
+      const res = await fetch(url, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ username, password }),
+      });
+
+      const data = await res.json();
+      console.log("login response:", data);
+
+      if (!res.ok || !data.success) {
+        setMessage(data.message || "처리 실패");
+        return;
+      }
+
+      if (isSignup) {
+        setMessage("회원가입 성공! 이제 로그인하세요.");
+        setIsSignup(false);
+        setPassword("");
+        return;
+      }
+
+      localStorage.setItem("token", data.token);
+      localStorage.setItem("username", data.user?.username || username);
+      navigate("/");
+    } catch (error) {
+      console.error("로그인/회원가입 오류:", error);
+      setMessage("서버오류");
+    }
+  };
+
+  return (
+    <div
+      style={{
+        maxWidth: "400px",
+        margin: "80px auto",
+        padding: "24px",
+        border: "1px solid #ddd",
+        borderRadius: "12px",
+      }}
+    >
+      <h2 style={{ textAlign: "center", marginBottom: "20px" }}>
+        테스트 로그인 화면
+      </h2>
+
+      <form onSubmit={handleSubmit}>
+        <div style={{ marginBottom: "12px" }}>
+          <input
+            type="text"
+            placeholder="아이디"
+            value={username}
+            onChange={(e) => setUsername(e.target.value)}
+            style={{ width: "100%", padding: "10px", boxSizing: "border-box" }}
+          />
+        </div>
+
+        <div style={{ marginBottom: "12px" }}>
+          <input
+            type="password"
+            placeholder="비밀번호"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            style={{ width: "100%", padding: "10px", boxSizing: "border-box" }}
+          />
+        </div>
+
+        <button
+          type="submit"
+          style={{
+            width: "100%",
+            padding: "12px",
+            backgroundColor: "#2d7ff9",
+            color: "#fff",
+            border: "none",
+            borderRadius: "8px",
+            cursor: "pointer",
+          }}
+        >
+          {isSignup ? "회원가입" : "로그인"}
+        </button>
+      </form>
+
+      <button
+        type="button"
+        onClick={() => {
+          setIsSignup(!isSignup);
+          setMessage("");
+        }}
+        style={{
+          width: "100%",
+          marginTop: "10px",
+          padding: "12px",
+          backgroundColor: "#eee",
+          border: "none",
+          borderRadius: "8px",
+          cursor: "pointer",
+        }}
+      >
+        {isSignup ? "로그인 화면으로" : "회원가입 하기"}
+      </button>
+
+      {message && (
+        <p style={{ marginTop: "16px", textAlign: "center", color: "red" }}>
+          {message}
+        </p>
+      )}
+    </div>
+  );
+}
