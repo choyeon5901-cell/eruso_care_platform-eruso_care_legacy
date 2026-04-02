@@ -65,7 +65,7 @@ function App() {
             </ProtectedRoute>
           }
         />
-
+console.log("PR test");
         {/* 🔥 여기로 이동 + 보호 적용 */}
         <Route
           path="/user-orders"
