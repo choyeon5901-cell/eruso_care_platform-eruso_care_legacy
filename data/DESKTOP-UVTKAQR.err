@@ -1,0 +1,262 @@
+2026-03-23 18:38:28 0 [Note] Starting MariaDB 12.2.2-MariaDB source revision d26a6f44c1f2119377e79a9540886c6d8c01472f server_uid RLAHyJaHUceEza4gkiBSqZDxWL8= as process 3308
+2026-03-23 18:38:28 0 [Note] InnoDB: Compressed tables use zlib 1.3.1
+2026-03-23 18:38:28 0 [Note] InnoDB: Number of transaction pools: 1
+2026-03-23 18:38:28 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2026-03-23 18:38:28 0 [Note] InnoDB: Using ThreadPool
+2026-03-23 18:38:28 0 [Note] InnoDB: innodb_buffer_pool_size_max=2040m, innodb_buffer_pool_size=2034m
+2026-03-23 18:38:28 0 [Note] InnoDB: Completed initialization of buffer pool
+2026-03-23 18:38:28 0 [Note] InnoDB: File system buffers for log disabled (block size=4096 bytes)
+2026-03-23 18:38:28 0 [Note] InnoDB: End of log at LSN=45141
+2026-03-23 18:38:28 0 [Note] InnoDB: Opened 3 undo tablespaces
+2026-03-23 18:38:28 0 [Note] InnoDB: 128 rollback segments in 3 undo tablespaces are active.
+2026-03-23 18:38:28 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2026-03-23 18:38:28 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2026-03-23 18:38:28 0 [Note] InnoDB: log sequence number 45141; transaction id 14
+2026-03-23 18:38:28 0 [Note] InnoDB: Loading buffer pool(s) from D:\eruso_care_platform\data\ib_buffer_pool
+2026-03-23 18:38:28 0 [Note] mysqld.exe: SSPI: using principal name 'localhost', mech 'Negotiate'
+2026-03-23 18:38:28 0 [Note] InnoDB: Buffer pool(s) load completed at 260323 18:38:28
+2026-03-23 18:38:29 0 [Note] Server socket created on IP: '::', port: '3306'.
+2026-03-23 18:38:29 0 [Note] Server socket created on IP: '0.0.0.0', port: '3306'.
+2026-03-23 18:38:29 0 [Note] mysqld.exe: Event Scheduler: Loaded 0 events
+2026-03-23 18:38:29 0 [Note] C:\Program Files\MariaDB 12.2\bin\mysqld.exe: ready for connections.
+Version: '12.2.2-MariaDB'  socket: ''  port: 3306  MariaDB Server
+2026-03-23 18:43:29 0 [Note] feedback plugin: report to 'https://feedback.mariadb.org/rest/v1/post' was sent
+2026-03-23 18:43:29 0 [Note] feedback plugin: server replied 'ok'
+2026-03-23 19:39:35 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 19:53:06 6 [Warning] Aborted connection 6 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 19:54:34 7 [Warning] Aborted connection 7 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 19:55:14 8 [Warning] Aborted connection 8 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:06:15 9 [Warning] Aborted connection 9 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:10:45 10 [Warning] Aborted connection 10 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:10:46 11 [Warning] Aborted connection 11 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:11:47 12 [Warning] Aborted connection 12 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:12:44 14 [Warning] Aborted connection 14 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:12:44 13 [Warning] Aborted connection 13 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:18:11 16 [Warning] Aborted connection 16 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:18:11 17 [Warning] Aborted connection 17 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:18:11 15 [Warning] Aborted connection 15 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:18:12 19 [Warning] Aborted connection 19 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:18:12 20 [Warning] Aborted connection 20 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:18:13 18 [Warning] Aborted connection 18 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:18:15 23 [Warning] Aborted connection 23 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:18:15 21 [Warning] Aborted connection 21 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:18:15 22 [Warning] Aborted connection 22 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:18:16 25 [Warning] Aborted connection 25 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:18:16 26 [Warning] Aborted connection 26 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:18:16 24 [Warning] Aborted connection 24 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:18:24 29 [Warning] Aborted connection 29 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:18:25 27 [Warning] Aborted connection 27 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:18:25 28 [Warning] Aborted connection 28 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:21:35 32 [Warning] Aborted connection 32 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:21:35 31 [Warning] Aborted connection 31 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:21:35 30 [Warning] Aborted connection 30 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:21:53 35 [Warning] Aborted connection 35 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:21:53 34 [Warning] Aborted connection 34 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:21:53 33 [Warning] Aborted connection 33 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:21:55 37 [Warning] Aborted connection 37 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:21:55 38 [Warning] Aborted connection 38 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:21:55 36 [Warning] Aborted connection 36 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:22:06 39 [Warning] Aborted connection 39 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:22:08 40 [Warning] Aborted connection 40 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:22:10 41 [Warning] Aborted connection 41 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:28:24 42 [Warning] Aborted connection 42 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 20:29:50 43 [Warning] Aborted connection 43 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 21:30:02 44 [Warning] Aborted connection 44 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 21:30:14 45 [Warning] Aborted connection 45 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 21:30:16 46 [Warning] Aborted connection 46 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 21:30:28 47 [Warning] Aborted connection 47 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 21:30:29 48 [Warning] Aborted connection 48 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 21:33:27 49 [Warning] Aborted connection 49 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 21:52:06 50 [Warning] Aborted connection 50 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 21:57:23 51 [Warning] Aborted connection 51 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 22:16:45 52 [Warning] Aborted connection 52 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 22:16:47 53 [Warning] Aborted connection 53 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 22:16:48 54 [Warning] Aborted connection 54 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 22:16:54 55 [Warning] Aborted connection 55 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 22:18:40 56 [Warning] Aborted connection 56 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 22:19:38 57 [Warning] Aborted connection 57 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 22:19:39 58 [Warning] Aborted connection 58 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 22:24:02 59 [Warning] Aborted connection 59 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 22:25:45 60 [Warning] Aborted connection 60 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 22:26:31 61 [Warning] Aborted connection 61 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 22:26:32 62 [Warning] Aborted connection 62 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-23 22:29:26 63 [Warning] Aborted connection 63 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-25 22:24:55 1 [Note] feedback plugin: report to 'https://feedback.mariadb.org/rest/v1/post' was sent
+2026-03-25 22:24:56 1 [Note] feedback plugin: server replied 'ok'
+2026-03-26 18:33:22 65 [Warning] Aborted connection 65 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 18:33:30 64 [Warning] Aborted connection 64 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 18:41:03 67 [Warning] Aborted connection 67 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 20:30:47 66 [Warning] Aborted connection 66 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 20:32:34 68 [Warning] Aborted connection 68 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 20:33:47 69 [Warning] Aborted connection 69 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 20:48:46 70 [Warning] Aborted connection 70 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 20:49:59 71 [Warning] Aborted connection 71 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 20:50:00 72 [Warning] Aborted connection 72 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 20:50:05 73 [Warning] Aborted connection 73 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 20:50:06 74 [Warning] Aborted connection 74 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 20:50:26 75 [Warning] Aborted connection 75 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 20:51:24 76 [Warning] Aborted connection 76 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 20:53:35 77 [Warning] Aborted connection 77 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 20:54:05 78 [Warning] Aborted connection 78 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 20:56:29 79 [Warning] Aborted connection 79 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 20:56:30 80 [Warning] Aborted connection 80 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 20:56:36 81 [Warning] Aborted connection 81 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 20:56:37 82 [Warning] Aborted connection 82 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 20:56:58 83 [Warning] Aborted connection 83 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 20:56:59 84 [Warning] Aborted connection 84 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 20:57:00 85 [Warning] Aborted connection 85 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 20:57:09 86 [Warning] Aborted connection 86 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 20:57:10 87 [Warning] Aborted connection 87 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 21:11:34 88 [Warning] Aborted connection 88 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 21:11:35 89 [Warning] Aborted connection 89 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 21:12:24 90 [Warning] Aborted connection 90 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 21:14:37 92 [Warning] Access denied for user 'root'@'localhost' (using password: NO)
+2026-03-26 21:17:51 91 [Warning] Aborted connection 91 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 21:18:41 94 [Warning] Aborted connection 94 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 21:18:50 95 [Warning] Aborted connection 95 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 21:18:51 96 [Warning] Aborted connection 96 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 21:27:37 0 [Note] Windows service "MariaDB":  received SERVICE_CONTROL_STOP
+2026-03-26 21:27:37 0 [Note] C:\Program Files\MariaDB 12.2\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2026-03-26 21:27:37 0 [Note] InnoDB: FTS optimize thread exiting.
+2026-03-26 21:27:38 0 [Note] feedback plugin: report to 'https://feedback.mariadb.org/rest/v1/post' was sent
+2026-03-26 21:27:38 0 [Note] feedback plugin: server replied 'ok'
+2026-03-26 21:27:38 0 [Note] InnoDB: Starting shutdown...
+2026-03-26 21:27:38 0 [Note] InnoDB: Dumping buffer pool(s) to D:\eruso_care_platform\data\ib_buffer_pool
+2026-03-26 21:27:38 0 [Note] InnoDB: Buffer pool(s) dump completed at 260326 21:27:38
+2026-03-26 21:27:38 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2026-03-26 21:27:38 0 [Note] InnoDB: Shutdown completed; log sequence number 59844; transaction id 35
+2026-03-26 21:27:38 0 [Note] C:\Program Files\MariaDB 12.2\bin\mysqld.exe: Shutdown complete
+2026-03-26 21:27:50 0 [Note] Starting MariaDB 12.2.2-MariaDB source revision d26a6f44c1f2119377e79a9540886c6d8c01472f server_uid RLAHyJaHUceEza4gkiBSqZDxWL8= as process 24680
+2026-03-26 21:27:50 0 [Note] InnoDB: Compressed tables use zlib 1.3.1
+2026-03-26 21:27:50 0 [Note] InnoDB: Number of transaction pools: 1
+2026-03-26 21:27:50 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2026-03-26 21:27:50 0 [Note] InnoDB: Using ThreadPool
+2026-03-26 21:27:50 0 [Note] InnoDB: innodb_buffer_pool_size_max=2040m, innodb_buffer_pool_size=2034m
+2026-03-26 21:27:50 0 [Note] InnoDB: Completed initialization of buffer pool
+2026-03-26 21:27:50 0 [Note] InnoDB: File system buffers for log disabled (block size=4096 bytes)
+2026-03-26 21:27:50 0 [Note] InnoDB: End of log at LSN=59844
+2026-03-26 21:27:50 0 [Note] InnoDB: Opened 3 undo tablespaces
+2026-03-26 21:27:50 0 [Note] InnoDB: 128 rollback segments in 3 undo tablespaces are active.
+2026-03-26 21:27:50 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2026-03-26 21:27:50 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2026-03-26 21:27:50 0 [Note] InnoDB: log sequence number 59844; transaction id 36
+2026-03-26 21:27:50 0 [Note] InnoDB: Loading buffer pool(s) from D:\eruso_care_platform\data\ib_buffer_pool
+2026-03-26 21:27:50 0 [Note] mysqld.exe: SSPI: using principal name 'localhost', mech 'Negotiate'
+2026-03-26 21:27:50 0 [Note] InnoDB: Buffer pool(s) load completed at 260326 21:27:50
+2026-03-26 21:27:50 0 [Note] Server socket created on IP: '::', port: '3306'.
+2026-03-26 21:27:50 0 [Note] Server socket created on IP: '0.0.0.0', port: '3306'.
+2026-03-26 21:27:51 0 [Note] mysqld.exe: Event Scheduler: Loaded 0 events
+2026-03-26 21:27:51 0 [Note] C:\Program Files\MariaDB 12.2\bin\mysqld.exe: ready for connections.
+Version: '12.2.2-MariaDB'  socket: ''  port: 3306  MariaDB Server
+2026-03-26 21:31:17 7 [Warning] Aborted connection 7 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 21:31:18 8 [Warning] Aborted connection 8 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 21:31:31 9 [Warning] Aborted connection 9 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 21:32:51 0 [Note] feedback plugin: report to 'https://feedback.mariadb.org/rest/v1/post' was sent
+2026-03-26 21:32:51 0 [Note] feedback plugin: server replied 'ok'
+2026-03-26 21:33:40 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 21:33:45 10 [Warning] Aborted connection 10 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 21:38:56 11 [Warning] Aborted connection 11 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 21:43:19 12 [Warning] Aborted connection 12 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 21:43:20 13 [Warning] Aborted connection 13 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 21:43:27 14 [Warning] Aborted connection 14 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 22:19:41 15 [Warning] Aborted connection 15 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 22:19:42 16 [Warning] Aborted connection 16 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 22:19:45 17 [Warning] Aborted connection 17 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 22:19:46 18 [Warning] Aborted connection 18 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 22:21:15 19 [Warning] Aborted connection 19 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 22:21:16 20 [Warning] Aborted connection 20 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 22:21:22 21 [Warning] Aborted connection 21 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 22:21:23 22 [Warning] Aborted connection 22 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 22:23:35 23 [Warning] Aborted connection 23 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 22:23:36 24 [Warning] Aborted connection 24 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 22:27:11 25 [Warning] Aborted connection 25 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 22:27:12 26 [Warning] Aborted connection 26 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 22:32:46 27 [Warning] Aborted connection 27 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 22:32:47 28 [Warning] Aborted connection 28 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 22:34:07 29 [Warning] Aborted connection 29 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 22:34:08 30 [Warning] Aborted connection 30 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 22:34:38 31 [Warning] Aborted connection 31 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 22:34:39 32 [Warning] Aborted connection 32 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 22:34:40 33 [Warning] Aborted connection 33 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 22:36:50 34 [Warning] Aborted connection 34 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 22:44:24 35 [Warning] Aborted connection 35 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 22:44:25 36 [Warning] Aborted connection 36 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 22:51:26 37 [Warning] Aborted connection 37 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 22:56:46 38 [Warning] Aborted connection 38 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 22:56:48 39 [Warning] Aborted connection 39 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:01:15 40 [Warning] Aborted connection 40 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:01:16 41 [Warning] Aborted connection 41 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:03:53 42 [Warning] Aborted connection 42 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:07:24 43 [Warning] Aborted connection 43 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:07:25 44 [Warning] Aborted connection 44 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:07:28 45 [Warning] Aborted connection 45 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:11:02 46 [Warning] Aborted connection 46 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:11:03 47 [Warning] Aborted connection 47 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:11:07 48 [Warning] Aborted connection 48 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:11:08 49 [Warning] Aborted connection 49 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:11:28 50 [Warning] Aborted connection 50 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:12:35 51 [Warning] Aborted connection 51 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:12:36 52 [Warning] Aborted connection 52 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:12:46 53 [Warning] Aborted connection 53 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:22:35 54 [Warning] Aborted connection 54 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:22:36 55 [Warning] Aborted connection 55 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:22:54 56 [Warning] Aborted connection 56 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:22:56 57 [Warning] Aborted connection 57 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:23:09 58 [Warning] Aborted connection 58 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:25:05 59 [Warning] Aborted connection 59 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:25:09 60 [Warning] Aborted connection 60 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:25:58 61 [Warning] Aborted connection 61 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:29:35 62 [Warning] Aborted connection 62 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:35:48 63 [Warning] Aborted connection 63 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:35:49 64 [Warning] Aborted connection 64 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:36:01 65 [Warning] Aborted connection 65 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:36:02 66 [Warning] Aborted connection 66 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:36:52 67 [Warning] Aborted connection 67 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:36:53 68 [Warning] Aborted connection 68 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:37:48 69 [Warning] Aborted connection 69 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:38:25 70 [Warning] Aborted connection 70 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:38:26 71 [Warning] Aborted connection 71 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:38:30 72 [Warning] Aborted connection 72 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:40:23 73 [Warning] Aborted connection 73 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:40:24 74 [Warning] Aborted connection 74 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:40:37 75 [Warning] Aborted connection 75 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:43:08 76 [Warning] Aborted connection 76 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:43:09 77 [Warning] Aborted connection 77 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:43:27 78 [Warning] Aborted connection 78 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:43:28 79 [Warning] Aborted connection 79 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:43:45 80 [Warning] Aborted connection 80 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-26 23:55:21 81 [Warning] Aborted connection 81 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-27  0:03:55 82 [Warning] Aborted connection 82 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-27  0:21:09 83 [Warning] Aborted connection 83 to db: 'eruso_care' user: 'telemed_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-27 21:17:11 85 [Warning] Aborted connection 85 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2026-03-27 21:19:45 87 [Warning] Aborted connection 87 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2026-03-27 21:24:15 88 [Warning] Aborted connection 88 to db: 'eruso_erp' user: 'erp_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-27 21:25:46 89 [Warning] Aborted connection 89 to db: 'eruso_erp' user: 'erp_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-27 21:40:02 91 [Warning] Aborted connection 91 to db: 'eruso_erp' user: 'erp_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-27 21:52:22 92 [Warning] Aborted connection 92 to db: 'eruso_erp' user: 'erp_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-27 22:09:15 94 [Warning] Aborted connection 94 to db: 'eruso_erp' user: 'erp_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-27 22:09:15 93 [Warning] Aborted connection 93 to db: 'eruso_erp' user: 'erp_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-27 22:11:14 95 [Warning] Aborted connection 95 to db: 'eruso_erp' user: 'erp_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-27 22:11:14 96 [Warning] Aborted connection 96 to db: 'eruso_erp' user: 'erp_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-27 22:13:52 97 [Warning] Aborted connection 97 to db: 'eruso_erp' user: 'erp_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-27 22:13:52 98 [Warning] Aborted connection 98 to db: 'eruso_erp' user: 'erp_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-27 22:17:53 99 [Warning] Aborted connection 99 to db: 'eruso_erp' user: 'erp_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-27 22:25:01 101 [Warning] Aborted connection 101 to db: 'eruso_erp' user: 'erp_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-27 22:25:01 100 [Warning] Aborted connection 100 to db: 'eruso_erp' user: 'erp_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-27 22:26:51 102 [Warning] Aborted connection 102 to db: 'eruso_erp' user: 'erp_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-27 22:26:51 103 [Warning] Aborted connection 103 to db: 'eruso_erp' user: 'erp_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-27 22:26:59 104 [Warning] Aborted connection 104 to db: 'eruso_erp' user: 'erp_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-27 22:26:59 105 [Warning] Aborted connection 105 to db: 'eruso_erp' user: 'erp_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-27 22:28:30 106 [Warning] Aborted connection 106 to db: 'eruso_erp' user: 'erp_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-27 22:46:12 107 [Warning] Aborted connection 107 to db: 'eruso_erp' user: 'erp_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-27 22:46:12 108 [Warning] Aborted connection 108 to db: 'eruso_erp' user: 'erp_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-27 22:50:09 110 [Warning] Aborted connection 110 to db: 'eruso_erp' user: 'erp_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-27 22:50:09 111 [Warning] Aborted connection 111 to db: 'eruso_erp' user: 'erp_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-27 22:53:14 112 [Warning] Aborted connection 112 to db: 'eruso_erp' user: 'erp_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-27 22:53:14 113 [Warning] Aborted connection 113 to db: 'eruso_erp' user: 'erp_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-27 22:59:07 114 [Warning] Aborted connection 114 to db: 'eruso_erp' user: 'erp_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-27 22:59:07 115 [Warning] Aborted connection 115 to db: 'eruso_erp' user: 'erp_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-27 23:05:55 116 [Warning] Aborted connection 116 to db: 'eruso_erp' user: 'erp_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-28  0:40:54 117 [Warning] Aborted connection 117 to db: 'eruso_erp' user: 'erp_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-28  0:44:22 118 [Warning] Aborted connection 118 to db: 'eruso_erp' user: 'erp_user' host: 'localhost' (Got an error reading communication packets)
+2026-03-28  1:00:14 119 [Warning] Aborted connection 119 to db: 'eruso_erp' user: 'erp_user' host: 'localhost' (Got an error reading communication packets)
