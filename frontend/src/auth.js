@@ -1,13 +1,13 @@
-import axios from "axios";
+import axios from 'axios';
 
 export const getUser = async () => {
-  const token = localStorage.getItem("token");
+  const token = localStorage.getItem('token');
 
   if (!token) {
-    throw new Error("No token");
+    throw new Error('No token');
   }
 
-  const res = await axios.get("http://localhost:8000/api/auth/me", {
+  const res = await axios.get('http://localhost:8000/api/auth/me', {
     headers: {
       Authorization: `Bearer ${token}`,
     },

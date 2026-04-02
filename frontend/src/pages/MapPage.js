@@ -1,17 +1,17 @@
-import React from "react";
-import AppHeader from "../components/AppHeader";
-import BottomTab from "../components/BottomTab";
-import theme from "../styles/theme";
-import Map from "./Map";
+import React from 'react';
+import AppHeader from '../components/AppHeader';
+import BottomTab from '../components/BottomTab';
+import theme from '../styles/theme';
+import Map from './Map';
 
 export default function MapPage() {
   return (
     <div
       style={{
-        minHeight: "100vh",
+        minHeight: '100vh',
         background: theme.colors.background,
         maxWidth: theme.layout.maxWidth,
-        margin: "0 auto",
+        margin: '0 auto',
         paddingBottom: theme.layout.bottomTabHeight,
       }}
     >

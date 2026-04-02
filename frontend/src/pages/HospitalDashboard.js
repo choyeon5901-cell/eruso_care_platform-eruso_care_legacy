@@ -1,13 +1,13 @@
-import { useEffect, useState } from "react";
-import axios from "axios";
+import { useEffect, useState } from 'react';
+import axios from 'axios';
 
 export default function HospitalDashboard() {
   const [list, setList] = useState([]);
 
   const load = async () => {
-    const token = localStorage.getItem("token");
+    const token = localStorage.getItem('token');
 
-    const res = await axios.get("http://localhost:8000/appointments/hospital", {
+    const res = await axios.get('http://localhost:8000/appointments/hospital', {
       headers: {
         Authorization: `Bearer ${token}`,
       },
@@ -35,7 +35,10 @@ export default function HospitalDashboard() {
       <h2>병원 예약 관리</h2>
 
       {list.map((a) => (
-        <div key={a.id} style={{ border: "1px solid #ddd", margin: 10, padding: 10 }}>
+        <div
+          key={a.id}
+          style={{ border: '1px solid #ddd', margin: 10, padding: 10 }}
+        >
           <div>환자ID: {a.user_id}</div>
           <div>시간: {a.date}</div>
           <div>상태: {a.status}</div>

@@ -1,5 +1,5 @@
-{
-  "semi": true,
-  "singleQuote": true,
-  "tabWidth": 2
-}
+module.exports = {
+  semi: true,
+  singleQuote: true,
+  tabWidth: 2,
+};

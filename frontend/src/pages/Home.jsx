@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import { getStoredUser } from "../api/session";
+import { useEffect, useState } from 'react';
+import { getStoredUser } from '../api/session';
 
 export default function Home() {
   const [user, setUser] = useState(null);
@@ -13,7 +13,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div style={{ padding: "20px" }}>
+    <div style={{ padding: '20px' }}>
       <h2>홈</h2>
       {user && (
         <div>

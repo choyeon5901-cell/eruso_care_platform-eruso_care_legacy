@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from 'react';
 
 function Orders() {
   const [orders, setOrders] = useState([]);
-  const API_BASE = "http://localhost:3001";
+  const API_BASE = 'http://localhost:3001';
 
   useEffect(() => {
     fetch(`${API_BASE}/orders`)
@@ -11,12 +11,12 @@ function Orders() {
         setOrders(data);
       })
       .catch((err) => {
-        console.error("주문 목록 조회 실패:", err);
+        console.error('주문 목록 조회 실패:', err);
       });
   }, []);
 
   return (
-    <div style={{ padding: "20px" }}>
+    <div style={{ padding: '20px' }}>
       <h2>주문 목록</h2>
 
       {orders.length === 0 ? (
@@ -26,10 +26,10 @@ function Orders() {
           <div
             key={order.id}
             style={{
-              marginBottom: "12px",
-              padding: "12px",
-              border: "1px solid #ddd",
-              borderRadius: "10px",
+              marginBottom: '12px',
+              padding: '12px',
+              border: '1px solid #ddd',
+              borderRadius: '10px',
             }}
           >
             <h4>{order.pharmacyName}</h4>
